@@ -45,7 +45,7 @@ export default function CartPage() {
   }
   async function proceedToCheckout(ev) {
     ev.preventDefault();
-    // address and shopping cart products
+
 
     const promise = new Promise((resolve, reject) => {
       fetch('/api/checkout', {
